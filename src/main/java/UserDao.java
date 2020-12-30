@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.List;
 
 public interface UserDao {
@@ -10,5 +11,7 @@ public interface UserDao {
 
     User getLike(String name);
 
-    void testUser();
+    void testGit();
+
+    HashMap<String, User> queryById();
 }
