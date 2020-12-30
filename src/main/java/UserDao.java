@@ -10,5 +10,5 @@ public interface UserDao {
 
     User getLike(String name);
 
-    void testUser(String name);
+    void testUser();
 }
