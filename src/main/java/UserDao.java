@@ -8,5 +8,5 @@ public interface UserDao {
 
     List<User> query();
 
-    User queryLike(String name);
+    User getLike(String name);
 }
