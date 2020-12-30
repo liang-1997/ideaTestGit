@@ -5,4 +5,6 @@ public interface UserDao {
     List<User> queryAllUser();
 
     List<User> queryUser();
+
+    List<User> query();
 }
