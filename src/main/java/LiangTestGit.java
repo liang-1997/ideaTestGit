@@ -3,6 +3,9 @@ public class LiangTestGit {
 
     public static void test() {
         String dev = "dev分支的一个函数";
+        System.out.println("=========");
+        System.out.println("本地修改，上传到github");
+        System.out.println("=========");
     }
 
 }
