@@ -9,4 +9,6 @@ public interface UserDao {
     List<User> query();
 
     User getLike(String name);
+
+    void testUser(String name);
 }
