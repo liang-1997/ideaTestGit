@@ -7,4 +7,6 @@ public interface UserDao {
     List<User> queryUser();
 
     List<User> query();
+
+    User queryLike(String name);
 }
