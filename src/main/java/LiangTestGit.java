@@ -13,5 +13,10 @@ public class LiangTestGit {
         System.out.println("本地修改，上传到github");
         System.out.println("=========");
     }
+    public static void test3() {
+        System.out.println("=========");
+        System.out.println("github修改，上传到本地");
+        System.out.println("=========");
+    }
 }
 
