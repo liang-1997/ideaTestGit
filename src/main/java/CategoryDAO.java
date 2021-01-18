@@ -7,6 +7,6 @@ public interface CategoryDAO {
     List<Category> queryCate();
 
     HashMap<String, Category> queryById();
-
+    //分支写的代码
     void queryUserByName(String username);
 }
