@@ -7,4 +7,6 @@ public interface CategoryDAO {
     List<Category> queryCate();
 
     HashMap<String, Category> queryById();
+
+    void queryUserByName(String username);
 }
