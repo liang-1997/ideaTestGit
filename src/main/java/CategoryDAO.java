@@ -9,4 +9,6 @@ public interface CategoryDAO {
     HashMap<String, Category> queryById();
     //分支写的代码
     void queryUserByName(String username);
+    //主支写的代码
+    User queryCategoryByTitle(String title);
 }
