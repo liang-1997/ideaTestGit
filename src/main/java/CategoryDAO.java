@@ -11,4 +11,6 @@ public interface CategoryDAO {
     void queryUserByName(String username);
     //主支写的代码
     User queryCategoryByTitle(String title);
+    
+    User queryCategoryByTitle(String title,int a，int c);
 }
